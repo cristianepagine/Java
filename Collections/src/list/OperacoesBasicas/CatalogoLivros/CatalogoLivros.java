@@ -8,6 +8,7 @@ public class CatalogoLivros {
 	}
 	
 	public String pesquisarPorAutor(String autor) {
+		return autor;
 		
 	}
 	

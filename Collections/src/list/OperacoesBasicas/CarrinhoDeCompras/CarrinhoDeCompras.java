@@ -22,10 +22,10 @@ public class CarrinhoDeCompras {
 		//cria uma lista para ler todas tarefas
 				List<Item> itemParaRemover = new ArrayList<>();
 				//cria um for para ver se a descrição da tarefa é a que está sendo passada no parametro
-				for (Item i : itemList) {			
-					if(i.getNome().equalsIgnoreCase(nome)) {
+				for (Item h : itemList) {			
+					if(h.getNome().equalsIgnoreCase(nome)) {
 						//adiciona o t do for no metodo de remover
-						itemParaRemover.add(i);
+						itemParaRemover.add(h);
 					}
 				}
 				//agora chama o remove all e remove tudo que esta dentro de tarefas para remover
