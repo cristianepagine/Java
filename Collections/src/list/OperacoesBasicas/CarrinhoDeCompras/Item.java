@@ -9,6 +9,7 @@ public class Item {
 		this.nome = nome;
 		this.preco = preco;
 		this.quantidade = quantidade;
+		
 	}
 	public String getNome() {
 		return nome;
